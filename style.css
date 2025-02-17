@@ -209,3 +209,97 @@ ul li:hover .dropdown{
     opacity: 1;
 }
 /* ------- under main end ------- */
+/* ------- about start------- */
+.about-section{
+    padding:30px 0 ;
+    color:#212529;
+    background:linear-gradient(45deg, rgba(246, 169, 225, 0.3),rgba(159, 202, 197, 0.3));
+}
+.about-container{
+    padding: 0 10px;
+}
+.about-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-col1{
+    width: 40%;
+    padding: 0 10px 0 20px;
+}
+.about-col1 h4{
+    font-size:20px;
+    font-weight:500;
+    padding: 10px 20px;
+    color: red;
+}
+.about-col1 h3{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+    line-height: 40px;
+}
+.about-col1 p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.about-col1 a{
+    text-decoration: none;
+    transition: 0.3s;
+    background: red;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
+.about-col2{
+    width: 60%;
+}
+.about-col-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;   
+}
+.about-coll{
+    width:40%;
+    padding: 0  0px ;
+}
+.about-coll .about-icon{
+    padding: 50px 40px;
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    text-align: left;
+    transition: 0.3s;
+}
+.about-icon i{
+    width: 80px;
+    height: 80px;
+    color: red;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.about-icon i:hover{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 50%;
+}
+/* ------- about end ------- */
+
